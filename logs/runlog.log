@@ -1,0 +1,16 @@
+2020-03-31 13:46:17,341 conftest.py[line:76] INFO 正在启动浏览器名称:chrome
+2020-03-31 13:46:34,355 base.py[line:27] INFO 正在定位元素信息:定位方式->css selector,Value值->#pane-公司公告 button
+2020-03-31 13:46:34,441 base.py[line:40] INFO 正在定位元素信息：定位方式->css selector，value值->i.el-icon-download
+2020-03-31 13:46:35,099 base.py[line:40] INFO 正在定位元素信息：定位方式->css selector，value值->.row-title
+2020-03-31 13:46:35,133 base.py[line:40] INFO 正在定位元素信息：定位方式->xpath，value值->//*[@title='刷新']
+2020-03-31 13:46:35,497 base.py[line:27] INFO 正在定位元素信息:定位方式->css selector,Value值->.el-message__content
+2020-03-31 13:46:35,524 base.py[line:27] INFO 正在定位元素信息:定位方式->css selector,Value值->.el-message__content
+2020-03-31 13:46:38,557 base.py[line:40] INFO 正在定位元素信息：定位方式->css selector，value值->.row-title
+2020-03-31 13:46:38,685 base.py[line:40] INFO 正在定位元素信息：定位方式->xpath，value值->//*[contains(@class,'_column_31')]//div
+2020-03-31 13:46:38,727 base.py[line:40] INFO 正在定位元素信息：定位方式->css selector，value值->.row-title
+2020-03-31 13:46:38,742 base.py[line:40] INFO 正在定位元素信息：定位方式->xpath，value值->//*[@title='刷新']
+2020-03-31 13:46:39,096 base.py[line:27] INFO 正在定位元素信息:定位方式->css selector,Value值->.el-message__content
+2020-03-31 13:46:39,640 base.py[line:27] INFO 正在定位元素信息:定位方式->css selector,Value值->.el-message__content
+2020-03-31 13:46:42,657 base.py[line:40] INFO 正在定位元素信息：定位方式->css selector，value值->.row-title
+2020-03-31 13:46:42,675 base.py[line:40] INFO 正在定位元素信息：定位方式->xpath，value值->//*[contains(@class,'_column_31')]//div
+2020-03-31 13:46:42,699 conftest.py[line:79] INFO 当全部用例执行完之后，teardown quit driver!

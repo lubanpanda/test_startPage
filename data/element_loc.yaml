@@ -1,0 +1,35 @@
+index:  #首页
+    company_notice_more_loc : ("css selector", "#pane-公司公告 button") # 公司公告-【更多】
+notice_list:   #公告列表页
+    add_article_loc: ("class name","tab-foot-btn")  #【新增文章】按钮
+    row_titles_loc:  ("css selector",".row-title")  #所有文章标题
+    go_back_btn_loc: ("css selector",".go-back-btn")  #【<】按钮
+    scroll_bar_loc: ("class name","marquee")  #滚动条
+    operation_column_loc: ("xpath","//*[text()='操作']") #操作列
+    top_btns_loc: ("css selector","i.el-icon-download")  #所有【置顶】/【取消置顶】按钮
+    article_rows_loc: ("css selector",".el-table__row")  #列表中的所有行
+    top_icons_loc: ("xpath","//*[@class='top-text-icon']")  #所有【顶】标签
+    time_columns_loc: ("xpath","//*[contains(@class,'_column_31')]//div")   #时间列（包含表头）
+    refresh_btns_loc: ("xpath","//*[@title='刷新']")  #所有【刷新】按钮
+edit_notice:   #编辑公告页
+    add_type_loc: ("xpath","//*[@class='clearfix']//*[@class='custom-add-article']")   #【新增类型】按钮
+    selected_type_loc: ("css selector","li.selected span")   #选中类型
+    drop_down_button_loc: ("css selector",".el-select__caret")   #类型下拉按钮
+    types_loc: ("css selector",".el-select-dropdown__item span")     #所有类型
+    title_input_loc: ("xpath","//input[@placeholder='请输入标题不超过40个字']")   #标题输入框
+    release_button_loc: ("css selector",".block-item.clearfix  .el-button--primary")      #【发布】按钮
+    release_confirm_loc: ("css selector",".el-message-box__btns button")    #提示页面-【确定】按钮
+    toast_loc: ("css selector",".el-message__content")    #toast信息
+    add_attachment_loc: ("css selector",".el-button--text")      #【添加附件】按钮
+    attachment_tip_loc: ("css selector",".el-button--text+span")      #附件大小提示文本
+    attachment_title_loc: ("css selector",".el-tag--light  a")   #附件标题
+    delete_attachment_loc: ("class name","el-tag__close")   #删除附件按钮
+    iframe_loc: ("id","ueditor_0") #iframe
+    body_loc:  ("css selector","body.view") #正文
+    body_paragraph_loc:  ("css selector","body.view p") #正文段落
+    checkboxes_loc: ("css selector",".el-checkbox__input")  #两个复选框，标题标红和发布到滚动栏
+    return_btn_loc: ("xpath","//span[text()='返回']") #【返回】按钮
+    not_saving_prompt_loc: ("css selector",".el-message-box__message p")  #编辑内容未保存提示文本
+    close_button_loc: ("css selector",".el-message-box__close")   #提示页面-【关闭】按钮
+
+
